@@ -6,7 +6,7 @@
 /*   By: qumiraud <qumiraud@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 16:19:43 by qumiraud          #+#    #+#             */
-/*   Updated: 2025/07/21 10:33:32 by qumiraud         ###   ########.fr       */
+/*   Updated: 2025/08/07 10:47:29 by qumiraud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	Contact::setFillContact(void)
 	std::cout << "                      |---->Darkest Secret: ";
 	std::cin >> this->_darkestSecret;
 }
-std::string	Contact::getInfoContact(int i)
+std::string	Contact::getInfoContact(int i) const
 {
 	if (i == 0)
 	{
@@ -54,9 +54,9 @@ std::string	Contact::getInfoContact(int i)
 }
 Contact::Contact(void)
 {
-	std::cout << "Contact constrctor called" << std::endl;
+	// std::cout << "Contact constrctor called" << std::endl;
 }
 Contact::~Contact(void)
 {
-	std::cout << "Contact destructor called" << std::endl;
+	// std::cout << "Contact destructor called" << std::endl;
 }

@@ -6,7 +6,7 @@
 /*   By: qumiraud <qumiraud@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 16:19:40 by qumiraud          #+#    #+#             */
-/*   Updated: 2025/07/21 08:55:33 by qumiraud         ###   ########.fr       */
+/*   Updated: 2025/08/07 10:42:42 by qumiraud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,12 @@
 class Phonebook
 {
 	public :
+		void	setPhonebookContact(int i);
+		std::string	getPhonebookContact(int i, int j) const;
 		Phonebook(void);
 		~Phonebook(void);
-		Contact	contact[8];
-
 	private :
+		Contact	contact[8];
 };
 
 #endif

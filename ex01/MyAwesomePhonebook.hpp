@@ -6,7 +6,7 @@
 /*   By: qumiraud <qumiraud@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 13:05:49 by qumiraud          #+#    #+#             */
-/*   Updated: 2025/07/21 16:45:30 by qumiraud         ###   ########.fr       */
+/*   Updated: 2025/07/23 10:34:30 by qumiraud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 void	printExitMessage(void);
 void	printHomeMessage(void);
 void	printBadInput(void);
-void printSearch(Phonebook phonebook);
+void printSearch(Phonebook &phonebook);
 std::string	printSpaces(std::string infocontact);
 
 
