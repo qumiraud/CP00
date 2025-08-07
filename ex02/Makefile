@@ -6,11 +6,11 @@
 #    By: qumiraud <qumiraud@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/28 10:21:22 by qumiraud          #+#    #+#              #
-#    Updated: 2025/07/28 10:22:15 by qumiraud         ###   ########.fr        #
+#    Updated: 2025/08/07 11:07:05 by qumiraud         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Phonebook
+NAME = Account
 
 CC = c++
 
