@@ -6,7 +6,7 @@
 /*   By: qumiraud <qumiraud@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 09:20:51 by qumiraud          #+#    #+#             */
-/*   Updated: 2025/07/23 11:00:41 by qumiraud         ###   ########.fr       */
+/*   Updated: 2025/08/08 11:00:24 by qumiraud         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,6 @@ int	main(void)
 		if (!(std::cin >> entry))
 			return (1);
 		entryAttribution(entry, &entryvalue);
-		std::cout << "entryvalue:" << entryvalue << std::endl;
 		switch (entryvalue)
 		{
 			//ADD
@@ -59,7 +58,7 @@ int	main(void)
 			//SEARCH
 			case 2:
 			{
-				printSearch(phonebook);
+				phonebook.printSearch();
 				break;
 			}
 			//EXIT
@@ -72,7 +71,7 @@ int	main(void)
 			//BAD INPUT
 			default:
 			{
-				printBadInput();
+				phonebook.printBadInput();
 				break;
 			}
 		}
